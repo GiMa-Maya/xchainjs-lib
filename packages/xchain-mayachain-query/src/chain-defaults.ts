@@ -3,10 +3,6 @@ import { Chain } from '@xchainjs/xchain-util'
 import { ChainAttributes } from './types'
 
 const DefaultChainAttributes: Record<Chain, ChainAttributes> = {
-  BCH: {
-    blockReward: 6.25,
-    avgBlockTimeInSecs: 600,
-  },
   BTC: {
     blockReward: 6.25,
     avgBlockTimeInSecs: 600,
@@ -15,33 +11,17 @@ const DefaultChainAttributes: Record<Chain, ChainAttributes> = {
     blockReward: 2,
     avgBlockTimeInSecs: 13,
   },
-  AVAX: {
-    blockReward: 2,
-    avgBlockTimeInSecs: 3,
-  },
-  LTC: {
-    blockReward: 12.5,
+  DASH: {
+    blockReward: 2.48,
     avgBlockTimeInSecs: 150,
   },
-  DOGE: {
-    blockReward: 10000,
-    avgBlockTimeInSecs: 60,
-  },
-  GAIA: {
+  KUJI: {
     blockReward: 0,
-    avgBlockTimeInSecs: 6,
-  },
-  BNB: {
-    blockReward: 0,
-    avgBlockTimeInSecs: 6,
+    avgBlockTimeInSecs: 4,
   },
   THOR: {
     blockReward: 0,
     avgBlockTimeInSecs: 6,
-  },
-  BSC: {
-    blockReward: 0,
-    avgBlockTimeInSecs: 3,
   },
   MAYA: {
     blockReward: 0,
